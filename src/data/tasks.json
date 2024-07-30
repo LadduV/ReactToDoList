@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Learn React",
+      "description": "Study the React documentation and create a sample project.",
+      "completed": false,
+      "timestamp": "2024-07-30T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Build a Todo List",
+      "description": "Create a Todo List application using React.",
+      "completed": false,
+      "timestamp": "2024-07-30T15:00:00Z"
+    }
+]
+  

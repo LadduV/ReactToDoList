@@ -1,0 +1,142 @@
+body {
+  font-family: cursive, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.search_input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.create_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create_form input,
+.create_form textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.create_form button {
+  padding: 12px;
+  background-color: #4be6fb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.create_form button:hover {
+  background-color: #06d7f2;
+}
+
+.task_list {
+  margin-top: 20px;
+}
+
+.task {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  margin: 12px 0;
+  background: #ffffff;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.task:hover {
+  background: #f9f9f9;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expand-icon {
+  cursor: pointer;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.expand-icon:hover {
+  color: #0056b3;
+}
+
+.task-title {
+  flex-grow: 1;
+  cursor: pointer;
+  font-weight: 500;
+  color: #333333;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-actions svg {
+  cursor: pointer;
+  color: #999999;
+  transition: color 0.3s ease;
+}
+
+.task-actions svg:hover {
+  color: #333333;
+}
+
+.task-details {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.task-details p {
+  margin: 5px 0;
+  color: #666666;
+}
+
+.task-details p:first-of-type {
+  font-style: italic;
+  color: #999999;
+}
+
+.task-details p:last-of-type {
+  font-size: 0.9em;
+  color: #999999;
+}
