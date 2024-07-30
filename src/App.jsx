@@ -46,6 +46,7 @@ const App = () => {
   const saveTasks = (updatedTasks) => {
     // Mock saving tasks to JSON file
     // In a real app, you'd make a POST/PUT request to your backend here
+    // this is react only project so i have put up a mock logic
     console.log('Tasks saved to JSON:', updatedTasks);
   };
 
